@@ -1,0 +1,115 @@
+.choose-section {
+    padding-bottom: 351px;
+}
+.choose {
+    padding: 100px 0 317px;
+    background-image: url("../../image/choose-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.choose__content {
+    width: 529px;
+    text-align: center;
+    margin-left: 370px;
+}
+.choose__title {
+    margin-bottom: 32px;
+    color: #FEFCF7;
+
+    font-family: Fraunces , serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 120% */
+}
+.choose__text { 
+    color: #FEFCF7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.8;
+}
+.choose__box {
+    position: absolute;
+    left: 0;
+    top: 1880px;
+    right: 0;
+    bottom: 0;
+}
+.choose__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.choose__item {
+    width: 350px;
+    height: 382px;
+    padding: 72px 48px 48px 47px ;
+    border-radius: 8px;
+    background-color: #F4F1EB;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+    &:hover{
+        background-color: #FDD6BA;
+    }
+    &:active{
+        background-color: #0E8784;
+    }
+}
+.choose__item-inner{
+    width: 350px;
+    height: 382px;
+    padding: 83px 48px 48px 47px ;
+    border-radius: 8px;
+    background-color: #F4F1EB;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+    &:hover{
+        background-color: #FDD6BA;
+    }
+    &:active{
+        background-color: #0E8784;
+    }
+}
+.choose__bold {
+    margin-top: 56px;
+    display: inline-block;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces , serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+}
+.choose__bold-inner{
+    margin-top: 67px;
+    display: inline-block;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: Fraunces , serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+}
+.choose__item-text {
+    margin-top: 24px;
+    color: #FEFCF7;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
