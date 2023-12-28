@@ -111,6 +111,8 @@
     }
     .collection{
         background-image: url("../image/collection-tablet.png");
+        background-size: auto;
+        border-radius: 10px;
     }
     .collection__list{
         padding-left: 0;
@@ -173,6 +175,7 @@
     }
     .collection{
         background-image: url("../image/collection-mobile.png");
+        background-size: auto;
     }
     .collection__list{
         margin-top: 30px;
