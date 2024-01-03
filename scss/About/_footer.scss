@@ -5,14 +5,12 @@
 .footer__box{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .footer__logo-link {
     display: inline-block;
 }
-.footer__wrap {
-    margin-left: 103px;
-    margin-right: 290px;
-}
+
 .footer__list {
     display: flex;
     align-items: center;
@@ -28,35 +26,51 @@
     line-height: 15px; /* 125% */
     letter-spacing: 0.923px;
     text-transform: uppercase;
-    transition: color 0.3s linear;
-    &:hover{
-        color: white;
-    }
 }
-.footer__card{
-    width: 120px;
+.footer__link:hover{
+    color: #FEFCF7;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+}
+.footer-img{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 18px;
 }
-.footer__card-img1{
-    cursor: pointer;
-    transition: background-color 0.3s linear;
+.facebook-icon:hover{
+    filter: invert(40%);
 }
-.footer__card-img1:hover {
-    background-color: #FDD6B9;
+.twitter-icon:hover{
+    filter: invert(40%);
 }
-.footer__card-img2{
-    cursor: pointer;
-    transition: background-color 0.3s linear;
+.instagram-icon:hover{
+    filter: invert(40%);
 }
-.footer__card-img2:hover {
-    fill: #FDD6B9;
-}
-.footer__card-img3{
-    cursor: pointer;
-    transition: fill 0.3s linear;
-}
-.footer__card-img3:hover {
-     fill: #FDD6B9;
-}
+  @media only screen and (max-width: 900px){
+    .footer__box{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer__wrap{
+      margin-top: 32px;
+      margin-bottom: 65px;
+    }
+  }
+  @media only screen and (max-width: 508px){
+    .footer__list{
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .footer__item + .footer__item{
+      margin-left: 0;
+    }
+    .img{
+      width: 217.846px;
+      height: 24px;
+    }
+  }

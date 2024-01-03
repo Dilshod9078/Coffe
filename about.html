@@ -11,7 +11,7 @@
         <div class="container">
             <div class="header">
                 <a class="header__logo-link" href="/">
-                    <img src="./image/logo.svg" alt="logo image" width="236" height="25">
+                    <img class="header__logo-img" src="./image/logo.svg" alt="logo image" width="236" height="25">
                 </a>
                 <div class="header__box">
                     <nav class="header__navbar">
@@ -28,6 +28,9 @@
                         </ul>
                     </nav>
                 </div>
+                <button class="header__hamburger">
+                    <img src="./image/hamburger.svg" alt="" width="16px" height="16">
+                </button>
             </div>
         </div>
     </header>
@@ -45,7 +48,36 @@
         <section class="commit-section">
             <div class="container">
                 <div class="commit">
-                    <img src="./image/commitment-img.png" alt="Commitment image" width="445" height="520">
+                   <picture>
+                    <source
+                    type="image/webp"
+                    media="(max-width:650px)"
+                    srcset="./image/coffee-mobile.webp 1x, ./image/coffee-mobile@2x.webp 2x"
+                    >
+                    <source
+                    type="image/webp"
+                    media="(max-width:800px)"
+                    srcset="./image/coffee-tablet.webp 1x, ./image/coffee-tablet@2x.webp 2x"
+                    >
+                    <source
+                    type="image/webp"
+                    srcset="./image/coffee.webp 1x, ./image/coffee@2x.webp 2x"
+                    >
+
+                    <!-- ...JPG ... -->
+
+                    <source
+                    type="image/jpg"
+                    media="(max-width:650px)"
+                    srcset="./image/coffee-mobile.jpg 1x, ./image/coffee-mobile@2x.jpg 2x"
+                    >
+                    <source
+                    type="image/jpg"
+                    media="(max-width:800px)"
+                    srcset="./image/coffee-tablet.jpg 1x, ./image/coffee-tablet@2x.jpg 2x"
+                    >
+                    <img src="./image/coffee.jpg"  srcset="./image/coffee.jpg 1x, ./image/coffee@2x.jpg 2x" alt="Coffee image" >
+                   </picture>
                     <div class="commit__box">
                         <h3 class="commit__title">Our commitment</h3>
                         <p class="commit__text">We’re built on a simple mission and a commitment to doing good along the way. We want to make it easy for you to discover and brew the world’s best coffee at home. It all starts at the source. To locate the specific lots we want to purchase, we travel nearly 60 days a year trying to understand the challenges and opportunities in each of these places. We collaborate with exceptional coffee growers and empower a global community of farmers through with well above fair-trade benchmarks. We also offer training, support farm community initiatives, and invest in coffee plant science. Curating only the finest blends, we roast each lot to highlight tasting profiles distinctive to their native growing region.</p>
@@ -108,7 +140,7 @@
             <div class="footer">
                 <div class="footer__box">
                     <a class="footer__logo-link" href="#">
-                        <img src="./image/footer-logo.svg" alt="Footer logo" width="236" height="26">
+                        <img class="img" src="./image/logo.svg" alt="Footer logo" width="236" height="26">
                     </a>
                     <div class="footer__wrap">
                         <ul class="footer__list">
@@ -123,10 +155,16 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer__card">
-                        <img class="footer__card-img1" src="./image/facebook.svg" alt="Facebook icon image" width="21"  height="21">
-                        <img class="footer__card-img2" src="./image/twitter-icon.svg" alt="Twitter icon image" width="21" height="19.5">
-                        <img class="footer__card-img3" src="./image/instagram-icon.svg" alt="Instagram icon image" width="21" height="21">
+                    <div class="footer-img">
+                        <a href="https://www.facebook.com/">
+                            <img class="facebook-icon" src="./image/facebook.svg" alt="" width="21" height="21">
+                        </a>
+                        <a href="https://twitter.com/">
+                            <img class="twitter-icon" src="./image/twitter-icon.svg" alt="" width="21" height="19.5">
+                        </a>
+                        <a href="https://www.instagram.com/muzaffarov_dilshod19/">
+                            <img class="instagram-icon" src="./image/instagram-icon.svg" alt="" width="21" height="21">
+                        </a>
                     </div>
                 </div>
             </div>

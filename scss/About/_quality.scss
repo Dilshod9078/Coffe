@@ -40,3 +40,64 @@
     line-height: 26px; /* 162.5% */
     opacity: 0.8;
 }
+
+@media only screen and (max-width: 800px){
+    .quality-section{
+        padding-top: 100px;
+        padding-bottom: 144px;
+    }
+    .quality{
+        padding: 224px 74px 67px 74px;
+        background-image: url(../../image/quality-tablet-bg.png) ;
+        border-radius: 10px;
+    }
+    .quality::before{
+        content: " ";
+        background-image: url(../../image/quality-tablet.png);
+        background-size: auto;
+        background-position: center;
+        left: 0;
+        top: -470px;
+    }
+    .quality__box{
+        width: 100%;
+        text-align: center;
+    }
+    .quality__title{
+        margin-bottom: 24px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .quality__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .quality-section{
+        padding: 50px 0 120px 0;
+    }
+    .quality{
+        padding: 142px 24px 61px;
+        background-image: url(../../image/quality-mobile-bg.png);
+        border-radius: 10px;
+    }
+    .quality::before{
+        content: " ";
+        background-image: url(../../image/quality-mobile.png);
+        background-position: center;
+        background-size: auto;
+        left: 0;
+        top: -420px;
+    }
+    .quality__title{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .quality__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+}

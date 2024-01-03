@@ -1,4 +1,4 @@
-.hero-section {
+.hero-section{
     padding-bottom: 168px;
 }
 .hero{
@@ -26,4 +26,45 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
+}
+@media only screen and (max-width: 1070px){
+    .hero{
+        padding: 58px 0 130px 85px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .hero-section{
+        padding-bottom: 144px;
+    }
+    .hero{
+        padding: 118px 0 118px 58px;
+        background-image: url(../image/about-hero.jpg);
+        border-radius: 10px;
+    }
+    .hero__title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .hero__text{
+        font-size: 15px;
+        line-height: 25px;
+        opacity: 0.8;
+    }
+}
+@media only screen and (max-width: 650px){
+    .hero-section{
+        padding-bottom: 120px;
+    }
+    .hero{
+        background-image: url(../../image/about-mobile.jpg);
+        padding: 111px 24px 87px;
+    }
+    .hero__content{
+        width: 100%;
+        text-align: center;
+    }
+    .hero__title{
+        font-size: 28px;
+        line-height: 28px;
+    }
 }

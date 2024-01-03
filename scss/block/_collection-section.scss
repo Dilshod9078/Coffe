@@ -54,7 +54,7 @@
 }
 @media only screen and (max-width: 1070px){
     .collection-section{
-       padding: 100px 0 0 0;
+       padding: 100px 0 129px 0;
     }
     .collection__list{
         width: 100%;
@@ -105,7 +105,7 @@
         align-items: start;
     }
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 980px){
     .collection-section{
      padding: 100px 77px 129px;
     }
@@ -175,7 +175,7 @@
     }
     .collection{
         background-image: url("../image/collection-mobile.png");
-        background-size: auto;
+        background-size: 100%;
     }
     .collection__list{
         margin-top: 30px;

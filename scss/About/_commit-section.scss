@@ -1,4 +1,5 @@
 .commit-section {
+    // padding-top: 168px;
     padding-bottom: 168px;
 }
 .commit {
@@ -26,4 +27,42 @@
     font-weight: 400;
     line-height: 26px; /* 162.5% */
     opacity: 0.8;
+}
+@media only screen and (max-width: 800px){
+    .commit{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .commit__box{
+        width: 100%;
+        margin-left: 70px;
+        text-align: center;
+        align-items: center;
+    }
+    .commit__title{
+        margin-bottom: 30px;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .commit__text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 650px){
+    .commit-section{
+        padding-bottom: 120px;
+    }
+    .commit{
+        align-items: center;
+        flex-direction: column;
+    }
+    .commit__title{
+        margin: 48px 0 30px;
+    }
+    .commit__box{
+        width: 100%;
+        margin-left: 0;
+    }
 }
