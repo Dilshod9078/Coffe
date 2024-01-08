@@ -41,6 +41,15 @@
     opacity: 0.8;
 }
 
+@media (max-width: 950px){
+    .quality::before{
+        content: "";
+        left: 650px;
+        top: 40px;
+        right: 0;
+        bottom: 0;
+    }
+}
 @media only screen and (max-width: 800px){
     .quality-section{
         padding-top: 100px;
