@@ -57,12 +57,12 @@
     }
     .quality{
         padding: 224px 74px 67px 74px;
-        background-image: url(../../image/quality-tablet-bg.png) ;
+        background-image: url("../image/quality-tablet-bg.png") ;
         border-radius: 10px;
     }
     .quality::before{
         content: " ";
-        background-image: url(../../image/quality-tablet.png);
+        background-image: url("../image/quality-tablet.png");
         background-size: auto;
         background-position: center;
         left: 0;
@@ -89,12 +89,12 @@
     }
     .quality{
         padding: 142px 24px 61px;
-        background-image: url("../../image/quality-mobile-bg.png");
+        background-image: url("../image/quality-mobile-bg.png");
         border-radius: 10px;
     }
     .quality::before{
         content: " ";
-        background-image: url("../../image/quality-mobile.png");
+        background-image: url("../image/quality-mobile.png");
         background-position: center;
         background-size: auto;
         left: 0;
