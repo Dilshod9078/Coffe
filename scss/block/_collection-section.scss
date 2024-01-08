@@ -174,6 +174,7 @@
     padding: 100px 46px;
     }
     .collection{
+        padding-top: 50px;
         background-image: url("../image/collection-mobile.png");
         background-size: 100%;
     }
@@ -210,5 +211,10 @@
     .collection__text{
         margin-top: 16px;
         text-align: center;
+    }
+}
+@media (max-width:350px){
+    .collection-section{
+        padding-top: 30px;
     }
 }
